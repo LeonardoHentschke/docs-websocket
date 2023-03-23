@@ -37,7 +37,3 @@ Este projeto utiliza as seguintes tecnologias:
 ## Contribuição
 
 Contribuições para este projeto são bem-vindas. Se você encontrar algum bug ou tiver alguma ideia de melhoria, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a MIT License.
