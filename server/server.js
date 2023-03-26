@@ -4,7 +4,7 @@ import path from "path";
 import http from "http";
 import { Server } from "socket.io";
 import * as dotenv from 'dotenv'
-import './dbConnect.js';
+import './db/dbConnect.js';
 dotenv.config()
 
 
