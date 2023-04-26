@@ -21,14 +21,14 @@
     <hr>
     <h2 class="display-6 mb-3">Cadastro</h2>
 
-    <form id="form-cadastro">
+    <form id="form-register">
         <div class="mb-3">
-            <label for="input-usuario" class="form-label">Usuário</label>
-            <input type="text" class="form-control" id="input-usuario" required>
+            <label for="input-user" class="form-label">Usuário</label>
+            <input type="text" class="form-control" id="input-user" required>
         </div>
         <div class="mb-3">
-            <label for="input-senha" class="form-label">Senha</label>
-            <input type="password" class="form-control" id="input-senha" required>
+            <label for="input-pass" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="input-pass" required>
         </div>
         <button type="submit" class="btn btn-primary mb-3">Cadastrar</button>
         <p>Já possui cadastro? <a href="/login/index.html" class="link-primary">Faça o login</a></p>
@@ -39,6 +39,7 @@
         crossorigin="anonymous"></script>
 
 <script src="/socket.io/socket.io.js"></script>
+<script src="register.js" type="module"></script>
 </body>
 
 </html>

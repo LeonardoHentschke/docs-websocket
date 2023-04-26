@@ -4,7 +4,7 @@ import {
     updateDocument
 } from "../db/documentsDb.js";
 
-function logEventsDocuments(socket, io) {
+function documents(socket, io) {
     socket.on("select-document", async (nameDocument, textToTextArea) => {
         socket.join(nameDocument)
 
@@ -31,4 +31,4 @@ function logEventsDocuments(socket, io) {
     })
 }
 
-export default logEventsDocuments;
+export default documents;

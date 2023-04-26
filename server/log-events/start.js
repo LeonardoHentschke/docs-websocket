@@ -4,7 +4,7 @@ import {
     getAllDocuments
 } from "../db/documentsDb.js";
 
-function logStartEvents(socket, io) {
+function start(socket, io) {
     socket.on("get-documents", async (returnDocuments) => {
         const documents = await getAllDocuments();
 
@@ -26,4 +26,4 @@ function logStartEvents(socket, io) {
     });
 }
 
-export default logStartEvents;
+export default start;

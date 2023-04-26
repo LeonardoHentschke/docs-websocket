@@ -1,8 +1,10 @@
-import logStartEvents from "./log-events/log-start-events.js";
-import logEventsDocuments from "./log-events/log-events-documents.js";
+import start from "./log-events/start.js";
+import documents from "./log-events/documents.js";
+import register from "./log-events/register.js";
 import io from "./server.js";
 
 io.on("connection", (socket) => {
-    logStartEvents(socket, io);
-    logEventsDocuments(socket, io);
+    start(socket, io);
+    documents(socket, io);
+    register(socket, io);
 });
